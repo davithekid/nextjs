@@ -4,10 +4,14 @@ export default function Header (){
         <>
             <header>
                 <nav>
-                    <ul className="text-orange-500 flex justify-center gap-[2vw] text-3xl font-extrabold uppercase hover:text-red-500">
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/contato">Contato</a></li>
-                        <li><a href="/sobre">Sobre</a></li>
+                    
+                 
+
+                    <ul className="text-white fixed flex left-[30%] tracking-tighter gap-[2vw] text-3xl font-extrabold uppercase "> 
+                        <li><a className="text-black" href="">wusyname<span className="text-red-600">.fm</span></a></li> 
+                        <li><a className="duration-300 hover:text-red-600" href="/">Home</a></li>
+                        <li><a className="duration-300 hover:text-red-600" href="/contato">Musicas</a></li>
+                        <li><a className="" href="/sobre"><img src="/perfil-de-usuario.png" width={40} alt="" /></a></li>
                     </ul>
                 </nav>
             </header>

@@ -1,0 +1,65 @@
+#banner .list .item .content{
+    position: absolute;
+    top: 15%;
+    width: 1140px;
+    max-width: 80%;
+    left: 50%;
+    transform: translateX(-60%);
+    padding-right: 30%;
+    box-sizing: border-box;
+    color: #fff;
+    text-shadow: 0px 5px 10px black;
+    font-weight: bold;
+    letter-spacing: 10px;
+  }
+  
+  #banner .list .item .title,
+  #banner .list .item .topic{
+    font-size: 4em;
+    list-style: 1.3em;
+    font-weight: 900;
+  }
+  
+  #banner .list .item .topic{
+    color: red;
+  }
+  
+  
+  #banner .list .item:nth-child(1) .autor,
+  #banner .list .item:nth-child(1) .title,
+  #banner .list .item:nth-child(1) .topic,
+  #banner .list .item:nth-child(1) .desc,
+  #banner .list .item:nth-child(1) .buttons{
+  transform: translateY(50px);
+  filter: blur(20px);
+  opacity: (0);
+  animation:  showContent 0.5s 1s linear 1 forwards;
+  }
+  
+  @keyframes showContent {
+      to {
+        opacity: 1;
+        filter: blur(0);
+        transform: translateY(0)
+      }
+  
+  }
+  
+  #banner .list .item:nth-child(1) .title{
+    animation-delay: 1.2s;
+  }
+  #banner .list .item:nth-child(1) .title{
+    animation-delay: 1.2s;
+  }
+  
+  #banner .list .item:nth-child(1) .topic{
+    animation-delay: 1.4s;
+  }
+  
+  #banner .list .item:nth-child(1) .desc{
+    animation-delay: 1.6s;
+  }
+  
+  #banner .list .item:nth-child(1) .buttons{
+    animation-delay: 1.8s;
+  }
