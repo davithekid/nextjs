@@ -64,107 +64,44 @@ export default function Home() {
         </div>
       </section>
 
-
       <section id="faixa">
         <h1 className="font-extrabold text-3xl m-10">Faixas mais ouvidas</h1>
 
-        <table className="ml-10 border-separate border border-gray-400">
-          <thead>
-            <tr>
-              <th>#</th>
-              <th>Música</th>
-              <th>Artista</th>
-              <th>Avaliação</th>
+        <table className="ml-10 w-[50%]">
+          <tbody className="p-10 rounded-4xl">
+            <tr className="border-b-3 hover:bg-[#11161a] duration-400">
+              <td className="py-3">1</td>
+              <td className="py-3"><img src="/MUSIC.jpg" alt="Música" width={50} /></td>
+              <td className="py-3">MUSIC<p>Playboi Carti </p></td>
+              <td className="py-3"> <p className="ml-5">Avaliação aqui</p></td>
             </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>1</td>
-              <td><img src="/MUSIC.jpg" alt="Música" width={39}/></td>
-              <td>MUSIC<p>Playboi carti </p></td>
-              <td> <p className="ml-5">Avaliação aqui</p></td>
+            <tr className="border-b-3 hover:bg-[#11161a] duration-400">
+              <td className="py-3">2</td>
+              <td className="py-3"><img src="/nink.jpeg" alt="Música" width={50} /></td>
+              <td className="py-3">Numa Balada Qualquer<p>Niink </p></td>
+              <td className="py-3"> <p className="ml-5">Avaliação aqui</p></td>
+            </tr>
+            <tr className="border-b-3 hover:bg-[#11161a] duration-400">
+              <td className="py-3">3</td>
+              <td className="py-3"><img src="/paiva.jpeg" alt="Música" width={50} /></td>
+              <td className="py-3">Fui Mlk<p>Mc Paiva </p></td>
+              <td className="py-3"> <p className="ml-5">Avaliação aqui</p></td>
+            </tr>
+            <tr className="border-b-3 hover:bg-[#11161a] duration-400">
+              <td className="py-3">4</td>
+              <td className="py-3"><img src="/mcnegao.jpeg" alt="Música" width={50} /></td>
+              <td className="py-3">Os Mlks é Ruim<p>Mc Negão Original, Veigh </p></td>
+              <td className="py-3"> <p className="ml-5">Avaliação aqui</p></td>
+            </tr>
+            <tr className="hover:bg-[#11161a] duration-400">
+              <td className="py-3">5</td>
+              <td className="py-3"><img src="/cjota.jpeg" alt="Música" width={50} /></td>
+              <td className="py-3">Mente do Coringa<p>CJota, Ryu, the runner, Ghard </p></td>
+              <td className="py-3"> <p className="ml-5">Avaliação aqui</p></td>
             </tr>
           </tbody>
         </table>
-
-
       </section>
-
-      {/* <section id="faixas">
-
-        
-        <div className="ml-40">
-
-          <table className="table-fixed"> */}
-      {/* <tbody>
-              <tr className="">
-                <td className="font-extrabold text-4xl">1</td>
-                <td><img className="w-15 mr-10" src="/MUSIC.jpg"></img></td>
-                <td className="font-extrabold text-2xl mr-1">Evil Jordan</td>
-                <td className="font-extrabold text-2xl mr-1">Playboi Carti</td>
-              </tr>
-              <tr>
-
-                <td className="font-extrabold text-4xl">2</td>
-                <td><img className="w-15 " src="/MUSIC.jpg"></img></td>
-                <td className="font-extrabold text-2xl">Evil Jordan</td>
-
-              </tr>
-
-              <tr>
-                <td className="font-extrabold text-4xl">3</td>
-                <td><img className="w-15 " src="/MUSIC.jpg"></img></td>
-                <td className="font-extrabold text-2xl">Evil Jordan</td>
-
-              </tr>
-              <tr>
-                <td className="font-extrabold text-4xl">4</td>
-                <td><img className="w-15 " src="/MUSIC.jpg"></img></td>
-                <td className="font-extrabold text-2xl">Evil Jordan</td>
-
-              </tr>
-              <tr>
-                <td className="font-extrabold text-4xl">5</td>
-                <td><img className="w-15 " src="/MUSIC.jpg"></img></td>
-                <td className="font-extrabold text-2xl">Evil Jordan</td>
-
-              </tr>
-              <tr>
-                <td className="font-extrabold text-4xl">6</td>
-                <td><img className="w-15 " src="/MUSIC.jpg"></img></td>
-                <td className="font-extrabold text-2xl">Evil Jordan</td>
-
-              </tr>
-              <tr>
-                <td className="font-extrabold text-4xl">7</td>
-                <td><img className="w-15 " src="/MUSIC.jpg"></img></td>
-                <td className="font-extrabold text-2xl">Evil Jordan</td>
-
-              </tr>
-              <tr>
-                <td className="font-extrabold text-4xl">8</td>
-                <td><img className="w-15 " src="/MUSIC.jpg"></img></td>
-                <td className="font-extrabold text-2xl">Evil Jordan</td>
-
-              </tr>
-              <tr>
-                <td className="font-extrabold text-4xl">9</td>
-                <td><img className="w-15 " src="/MUSIC.jpg"></img></td>
-                <td className="font-extrabold text-2xl">Evil Jordan</td>
-
-              </tr>
-              <tr>
-                <td className="font-extrabold text-4xl">10</td>
-                <td><img className="w-15 " src="/MUSIC.jpg"></img></td>
-                <td className="font-extrabold text-2xl">Evil Jordan</td>
-
-              </tr>
-            </tbody>
-          </table>
-        </div> */}
-      {/* </section> */}
-
-
 
     </>
 
