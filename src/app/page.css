@@ -1,6 +1,17 @@
+body{
+   background: linear-gradient(rgb(10, 13, 15), rgb(8, 11, 14));
+ 
+}
+
+/* banner */
+
+#banner img {
+  box-shadow: 5px 20px 15px #070707;
+}
+
 #banner .list .item .content{
     position: absolute;
-    top: 15%;
+    top: 10.5%;
     width: 1140px;
     max-width: 80%;
     left: 50%;
@@ -63,3 +74,42 @@
   #banner .list .item:nth-child(1) .buttons{
     animation-delay: 1.8s;
   }
+
+  /* config gerais */
+
+  h1 {
+    text-shadow: 5px 8px 5px black;
+  }
+
+/* conteudo-principal */
+
+.conteudo img {
+  box-shadow: 15px 15px 10px black;
+}
+
+p{
+  text-shadow: #14181c;
+  text-shadow: 10px 15px 10px black;
+}
+
+.artistas {
+  display: flex;
+  width: 60%;
+  height: 530px;
+}
+
+.artistas img {
+  width: 0;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: .3;
+  transition: .5s ease;
+  border-radius: 30px;
+  margin: 1%;
+}
+
+.artistas img:hover{
+  width: 300px;
+  opacity: 1;
+  filter: contrast(120%);
+}
